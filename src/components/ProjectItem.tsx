@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedLine from "./AnimatedLine";
 
@@ -29,9 +30,13 @@ export default function ProjectItem({ project, index }: { project: Project; inde
             <Link href={`/projects/${project.id}`} className="block w-full md:w-[70%] group">
                 <div className="relative overflow-hidden aspect-[4/3] mb-4 bg-gray-100">
                     <motion.div style={{ y }} className="w-full h-[120%] relative -top-[10%]">
-                        <div className="w-full h-full transition-transform duration-700 ease-out group-hover:scale-105 bg-gray-200 flex items-center justify-center text-muted text-2xl font-display">
-                            {/* Placeholder for Image */}
-                            Project Image {project.id}
+                        <div className="w-full h-full relative">
+                            <Image
+                                src={project.image}
+                                alt={project.title}
+                                fill
+                                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                            />
                         </div>
                     </motion.div>
                 </div>
