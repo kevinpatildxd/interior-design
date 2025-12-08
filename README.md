@@ -1,4 +1,4 @@
-# 👨‍💻 Kevin Patil's Developer Portfolio
+
 
 Welcome to my project collection. Below is the documentation for my key open-source repositories, covering **Blockchain**, **Privacy Security**, and **Modern Web Design**.
 
