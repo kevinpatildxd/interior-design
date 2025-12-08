@@ -1,84 +1,54 @@
+# 🛋️ Interior Design Portfolio
 
+![Next.js](https://img.shields.io/badge/Framework-Next.js_14-black) ![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue) ![Styling](https://img.shields.io/badge/Styling-CSS_Modules-pink) ![Deployment](https://img.shields.io/badge/Deploy-Vercel-triangle)
 
-Welcome to my project collection. Below is the documentation for my key open-source repositories, covering **Blockchain**, **Privacy Security**, and **Modern Web Design**.
+A professional, high-performance portfolio website designed for interior architects and designers. Built with **Next.js (App Router)** and **TypeScript**, this project focuses on visual storytelling, high-speed image rendering, and a seamless responsive experience.
+
+🔗 **Live Demo:** [https://interiordesign-phi-three.vercel.app](https://interiordesign-phi-three.vercel.app)
 
 ---
 
-## 📂 1. React + CryptoJS Privacy Suite
-**Repository:** [Reactjs-cryptojs-Based-project](https://github.com/kevinpatildxd/Reactjs-cryptojs-Based-project)
+## 🚀 Project Overview
 
-A collection of secure, privacy-focused web applications. These projects demonstrate client-side encryption where user data is encrypted using **AES (CryptoJS)** before being stored in the browser, ensuring complete privacy.
-
-### **Included Applications**
-* **📝 Secure Notes App:** Create and store encrypted notes locally.
-* **✅ Secure Todo App:** Task manager with encrypted storage.
-* **📔 Secure Daily Journal:** Private diary with lock functionality.
-* **💰 Secure Expense Tracker:** Financial tracking with private history.
-* **📞 Encrypted Contact Book:** Securely store sensitive contact details.
-
-### **Tech Stack**
-* **Frontend:** React.js
-* **Security:** CryptoJS (AES Encryption)
-* **Storage:** LocalStorage (Encrypted)
-
-### **Quick Start**
-```bash
-git clone [https://github.com/kevinpatildxd/Reactjs-cryptojs-Based-project.git](https://github.com/kevinpatildxd/Reactjs-cryptojs-Based-project.git)
-cd Secure-notes-app  # Select any sub-folder
-npm install
-npm start
-```
-
-## 📂 2. Decentralized Full-Stack dApp (Smart Contract)
-**Repository:** [smart-contract](https://github.com/kevinpatildxd/smart-contract)
-
-A production-ready dApp architecture featuring a Solidity backend and React frontend. It demonstrates how to deploy smart contracts to the Ethereum blockchain and interact with them via a web interface.
-
-### **Architecture**
-* **backend/**: Contains Solidity contracts, Hardhat configuration, and deployment scripts.
-* **frontend/**: React.js application connected via Ethers.js/Web3.js.
-
-### **Tech Stack**
-* **Blockchain:** Solidity, Hardhat, Ethereum
-* **Frontend:** React.js, Ethers.js
-* **Tools:** MetaMask, Chai (Testing)
-
-### **Deployment Instructions**
-
-#### Backend (Deploy Contract)
-```bash
-cd backend
-npm install && npx hardhat node
-# In new terminal:
-npx hardhat run scripts/deploy.js --network localhost
-```
-
-#### Frontend (Run UI)
-```bash
-cd frontend
-npm install && npm start
-```
-
-## 📂 3. Interior Design Portfolio
-**Repository:** [interior-design](https://github.com/kevinpatildxd/interior-design)
-
-A high-performance portfolio website built with Next.js 14 and TypeScript. Designed for architectural and interior design showcases, focusing on visual aesthetics, responsiveness, and SEO.
+This application serves as a digital showroom to display interior design projects. It leverages Next.js server-side rendering (SSR) to ensure fast load times and optimal SEO, which is critical for portfolio sites.
 
 ### **Key Features**
-* **⚡ Server-Side Rendering (SSR):** Optimized for speed and SEO.
-* **📱 Fully Responsive:** Mobile-first design.
-* **🛡️ TypeScript:** Strongly typed codebase for reliability.
-* **🖼️ Modern Gallery:** High-quality image showcase layouts.
+* **⚡ High Performance:** Utilizes Next.js Image Optimization and SSR for instant page loads.
+* **📱 Mobile-First Design:** Fully responsive layout that adapts gracefully to phones, tablets, and desktops.
+* **🖼️ Visual Gallery:** Immersive image grids and layouts to showcase architectural work.
+* **🛡️ Type Safety:** Complete TypeScript integration ensures code reliability and easier maintenance.
+* **✨ Modern Aesthetics:** Minimalist UI designed to let the photography stand out.
 
-### **Tech Stack**
-* **Framework:** Next.js (App Router)
-* **Language:** TypeScript
-* **Styling:** CSS Modules / Tailwind
-* **Deployment:** Vercel
+---
 
-### **Quick Start**
-```bash
-git clone [https://github.com/kevinpatildxd/interior-design.git](https://github.com/kevinpatildxd/interior-design.git)
-npm install
-npm run dev
-``` 
+## 🛠️ Tech Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Framework** | [Next.js 14](https://nextjs.org/) (App Router) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **Styling** | CSS Modules / PostCSS |
+| **Deployment** | [Vercel](https://vercel.com/) |
+| **Linting** | ESLint |
+
+---
+
+## 📂 Project Structure
+
+```text
+interior-design/
+├── app/                  # Next.js App Router pages and layouts
+│   ├── page.tsx          # Homepage entry
+│   ├── layout.tsx        # Root layout definition
+│   └── globals.css       # Global styles
+├── components/           # Reusable UI components (Navbar, Footer, Gallery)
+├── public/               # Static assets (Images, Icons, Fonts)
+├── styles/               # Component-specific styles
+├── next.config.ts        # Next.js configuration settings
+├── tsconfig.json         # TypeScript configuration
+└── package.json          # Dependencies and scripts
+
+
+### 👤 Author
+**Kevin Patil**
+* GitHub: [@kevinpatildxd](https://github.com/kevinpatildxd)
