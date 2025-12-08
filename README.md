@@ -47,8 +47,8 @@ interior-design/
 ├── next.config.ts        # Next.js configuration settings
 ├── tsconfig.json         # TypeScript configuration
 └── package.json          # Dependencies and scripts
+---
 
-
-### 👤 Author
+## 👤 Author
 **Kevin Patil**
 * GitHub: [@kevinpatildxd](https://github.com/kevinpatildxd)
